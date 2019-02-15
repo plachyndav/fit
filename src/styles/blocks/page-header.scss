@@ -1,0 +1,27 @@
+.page-header {
+    position: relative;
+
+    background-color: $color-green;
+    background-image: url("./../../img/header-background.png");
+    background-repeat: no-repeat;
+    background-size: 2108px 808px;
+    background-position: center 90px;
+}
+
+.page-header::after {
+    content: "";
+    position: absolute;
+    width: 155px;
+    height: 185px;
+    left: 50%;
+    bottom: -50px;
+
+    background-image: url("./../../img/strawberry.png");
+    background-repeat: no-repeat;
+}
+
+.page-header__wrapper {
+    width: 1200px;
+    padding: 28px 13px 180px 13px;
+    margin: 0 auto;
+}
