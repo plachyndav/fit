@@ -1,0 +1,39 @@
+.main-nav {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav__logo {
+    margin-right: auto;
+}
+
+.main-nav__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.main-nav__item {
+    margin-left: 55px;
+
+    a {
+        text-decoration: none;
+        color: $color-medium-white;
+        font-family: $main-font;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+
+        &:hover,
+        &:focus,
+        &:active {
+            text-decoration: underline;
+        }
+    }
+}
+
+.main-nav__get-app-button {
+    margin-left: 55px;
+}

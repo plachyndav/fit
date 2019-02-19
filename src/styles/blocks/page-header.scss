@@ -1,5 +1,6 @@
 .page-header {
     position: relative;
+    min-height: 898px;
 
     background-color: $color-green;
     background-image: url("./../../img/header-background.png");
@@ -24,4 +25,8 @@
     width: 1200px;
     padding: 28px 13px 180px 13px;
     margin: 0 auto;
+}
+
+.page-header__main-nav {
+    margin-bottom: 200px;
 }

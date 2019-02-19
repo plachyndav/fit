@@ -1,0 +1,27 @@
+.button {
+    height: 42px;
+    padding: 0;
+    border: none;
+
+    border-radius: 30px;
+    font: inherit;
+    font-weight: 700;
+    color: $color-green;
+    background-color: #ffffff;
+    cursor: pointer;
+
+    &:hover,
+    &:focus,
+    &:active {
+        background-color: $color-super-dark-grey;
+        color: #ffffff;
+    }
+}
+
+.button--short {
+    width: 140px;
+}
+
+.button--long {
+    width: 247px;
+}

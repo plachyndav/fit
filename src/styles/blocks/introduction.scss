@@ -1,0 +1,65 @@
+.introduction {
+    width: 635px;
+}
+
+.introduction__app-icon {
+    display: block;
+    margin-bottom: 60px;
+}
+
+.introduction__slogan {
+    display: block;
+    margin-bottom: 20px;
+
+    color: $color-super-light-grey;
+    font-family: inherit;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+    letter-spacing: 2.56px;
+}
+
+.introduction__slogan span {
+    font-weight: 700;
+}
+
+.introduction__description {
+    margin: 0;
+    margin-bottom: 58px;
+
+    color: $color-super-light-grey;
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.72px;
+}
+
+.introduction__link-apple {
+    position: relative;
+    margin-right: 160px;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 46px;
+        width: 130px;
+
+        background-image: url("./../../img/appstore.png");
+        background-repeat: no-repeat;
+    }
+}
+
+.introduction__link-google {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        height: 46px;
+        width: 137px;
+
+        background-image: url("./../../img/googleplay.png");
+        background-repeat: no-repeat;
+    }
+}
