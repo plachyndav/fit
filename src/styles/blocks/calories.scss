@@ -1,12 +1,10 @@
 .calories {
+    position: relative;
+
     display: flex;
+    align-items: center;
     width: 1246px;
-
     padding: 0 13px;
-}
-
-.calories__toggles {
-    width: 600px;
 }
 
 .calories__title {

@@ -1,0 +1,87 @@
+.toggles {
+    width: 670px;
+}
+
+.toggles__phone {
+    position: relative;
+    z-index: 1;
+}
+
+.toggles__circle {
+    position: absolute;
+    top: 50%;
+    left: 90px;
+
+    height: 467px;
+    width: 467px;
+    margin-top: -234px;
+
+    border: 1px solid $color-light-grey;
+    border-radius: 50%;
+}
+
+.toggles__list {
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.toggles__button {
+    position: absolute;
+
+    height: 66px;
+    width: 66px;
+
+    border: 3px solid #ffffff;
+    border-radius: 50px;
+    background-color: $color-light-grey;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    cursor: pointer;
+
+    &:hover {
+        border-color: $color-green;
+    }
+
+    &--active {
+        background-color: $color-green;
+    }
+}
+
+.toggles__button--bell {
+    top: -11px;
+    right: 112px;
+
+    background-image: url("./../../img/bell.png");
+}
+
+.toggles__button--calendar {
+    top: 66px;
+    right: 9px;
+
+    background-image: url("./../../img/calendar.png");
+}
+
+.toggles__button--graph {
+    top: calc(50% - 33px);
+    right: -33px;
+
+    background-image: url("./../../img/graph.png");
+    background-size: 28px 28px;
+}
+
+.toggles__button--heart {
+    bottom: 66px;
+    right: 9px;
+
+    background-image: url("./../../img/heart.png");
+}
+
+.toggles__button--points {
+    bottom: -10px;
+    right: 112px;
+
+    background-image: url("./../../img/points.png");
+}
