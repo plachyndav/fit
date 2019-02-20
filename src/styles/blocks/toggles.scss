@@ -46,6 +46,10 @@
     }
 
     &--active {
+        height: 98px;
+        width: 98px;
+
+        border-width: 5px;
         background-color: $color-green;
     }
 }
@@ -67,6 +71,9 @@
 .toggles__button--graph {
     top: calc(50% - 33px);
     right: -33px;
+
+    // top: calc(50% - 33px - 16px);
+    // right: calc(-33px - 16px);
 
     background-image: url("./../../img/graph.png");
     background-size: 28px 28px;
