@@ -1,8 +1,11 @@
 @import "normalize.css";
 @import "variables.scss";
 @import "general.scss";
+@import "layout.scss";
 
 @import "./blocks/page-header.scss";
 @import "./blocks/main-nav.scss";
 @import "./blocks/button.scss";
 @import "./blocks/introduction.scss";
+@import "./blocks/calories.scss";
+@import "./blocks/page-main.scss";
