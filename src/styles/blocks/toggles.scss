@@ -34,7 +34,7 @@
     width: 66px;
 
     border: 3px solid #ffffff;
-    border-radius: 50px;
+    border-radius: 50%;
     background-color: $color-light-grey;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,6 +51,7 @@
 
         border-width: 5px;
         background-color: $color-green;
+        box-shadow: 0 0 20px $color-medium-grey;
     }
 }
 
@@ -59,6 +60,11 @@
     right: 112px;
 
     background-image: url("./../../img/bell.png");
+
+    &.toggles__button--active {
+        top: calc(-11px - 16px);
+        right: calc(112px - 16px);
+    }
 }
 
 .toggles__button--calendar {
@@ -66,17 +72,24 @@
     right: 9px;
 
     background-image: url("./../../img/calendar.png");
+
+    &.toggles__button--active {
+        top: calc(66px - 16px);
+        right: calc(9px - 16px);
+    }
 }
 
 .toggles__button--graph {
     top: calc(50% - 33px);
     right: -33px;
 
-    // top: calc(50% - 33px - 16px);
-    // right: calc(-33px - 16px);
-
     background-image: url("./../../img/graph.png");
     background-size: 28px 28px;
+
+    &.toggles__button--active {
+        top: calc(50% - 33px - 16px);
+        right: calc(-33px - 16px);
+    }
 }
 
 .toggles__button--heart {
@@ -84,6 +97,11 @@
     right: 9px;
 
     background-image: url("./../../img/heart.png");
+
+    &.toggles__button--active {
+        bottom: calc(66px - 16px);
+        right: calc(9px - 16px);
+    }
 }
 
 .toggles__button--points {
@@ -91,4 +109,9 @@
     right: 112px;
 
     background-image: url("./../../img/points.png");
+
+    &.toggles__button--active {
+        bottom: calc(-10px - 16px);
+        right: calc(112px - 16px);
+    }
 }
