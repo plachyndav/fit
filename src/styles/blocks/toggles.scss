@@ -45,6 +45,9 @@
         border-color: $color-green;
     }
 
+    &:focus {
+    }
+
     &--active {
         height: 98px;
         width: 98px;
