@@ -1,0 +1,40 @@
+.page-footer {
+    min-height: 445px;
+    padding-top: 105px;
+
+    background-color: $color-green;
+    background-image: url("./../../img/footer-back.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 30px;
+
+    text-align: center;
+}
+
+.page-footer__title {
+    display: block;
+    margin-bottom: 25px;
+
+    color: #ffffff;
+    font-family: $main-font;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 1.44px;
+    span {
+        font-weight: 700;
+    }
+}
+
+.page-footer__instruction {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+
+    color: #ffffff;
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.54px;
+}
