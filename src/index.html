@@ -83,32 +83,41 @@
             </section>
             <section class="page-main__meal  meal">
                 <h2 class="visually-hidden">Meal Time</h2>
-                <b class="meal__title">Manage your <span>meal time</span></b>
-                <p class="meal__content">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam.
-                </p>
+                <div class="meal__wrapper">
+                    <b class="meal__title">Manage your <span>meal time</span></b>
+                    <p class="meal__content">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna
+                        aliqua. Ut enim ad minim veniam.
+                    </p>
+                </div>
                 <ul class="meal__list">
                     <li class="meal__item">
-                        <img class="meal__icon" src="" alt="Apples">
-                        <p class="meal__name">Apple</p>
-                        <p class="meal__description">Lorem ipsum dolor sit</p>
-                        <p class="meal__statistics">35 G 189 KCAL</p>
-                        <time class="meal__time">01:00<br>PM</time>
+                        <img class="meal__icon" src="./img/apples.png" alt="Apples">
+                        <div class="meal__wrap">
+                            <p class="meal__name">Apple</p>
+                            <p class="meal__description">Lorem ipsum dolor sit</p>
+                            <p class="meal__statistics">35 g 189 kcal</p>
+                        </div>
+                        <time class="meal__time">01:00<br><span>pm</span></time>
+                    </li>
+                    <li class="meal__item  meal__item--selected">
+                        <img class="meal__icon" src="./img/sandwich.png" alt="Sandwich">
+                        <div class="meal__wrap">
+                            <p class="meal__name">Sandwich</p>
+                            <p class="meal__description">Lorem ipsum dolor sit</p>
+                            <p class="meal__statistics">35 g 189 kcal</p>
+                        </div>
+                        <time class="meal__time">03:00<br><span>pm</span></time>
                     </li>
                     <li class="meal__item">
-                        <img class="meal__icon" src="" alt="Sandwich">
-                        <p class="meal__name">Sandwich</p>
-                        <p class="meal__description">Lorem ipsum dolor sit</p>
-                        <p class="meal__statistics">35 G 189 KCAL</p>
-                        <time class="meal__time">03:00<br>PM</time>
-                    </li>
-                    <li class="meal__item">
-                        <img class="meal__icon" src="" alt="Salad with chicken">
-                        <p class="meal__name">Salad with chicken</p>
-                        <p class="meal__description">Lorem ipsum dolor sit</p>
-                        <p class="meal__statistics">35 G 189 KCAL</p>
-                        <time class="meal__time">05:30<br>PM</time>
+                        <img class="meal__icon" src="./img/salad.png" alt="Salad with chicken">
+                        <div class="meal__wrap">
+                            <p class="meal__name">Salad with chicken</p>
+                            <p class="meal__description">Lorem ipsum dolor sit</p>
+                            <p class="meal__statistics">35 g 189 kcal</p>
+                        </div>
+                        <time class="meal__time">05:30<br><span>pm</span></time>
                     </li>
                 </ul>
             </section>

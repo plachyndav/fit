@@ -1,0 +1,164 @@
+.meal {
+    display: flex;
+
+    width: 1190px;
+    min-height: 700px;
+    margin: 0 auto;
+}
+
+.meal__wrapper {
+    align-self: center;
+    min-width: 660px;
+}
+
+.meal__title {
+    display: block;
+    margin-bottom: 15px;
+
+    color: $color-super-dark-grey;
+    font-family: $main-font;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 60px;
+    letter-spacing: 1.44px;
+
+    span {
+        color: $color-green;
+    }
+}
+
+.meal__content {
+    max-width: 470px;
+    margin: 0;
+
+    color: $color-super-dark-grey;
+    font-family: $main-font;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.54px;
+}
+
+.meal__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+.meal__item {
+    display: flex;
+    min-width: 422px;
+
+    margin-bottom: 28px;
+    padding: 25px 19px;
+
+    box-shadow: 0 0 60px rgba(15, 65, 36, 0.05);
+    border: 1px solid rgba(145, 145, 145, 0.3);
+    border-radius: 10px;
+
+    &:last-child {
+        margin-bottom: 0;
+
+        .meal__time {
+            color: $color-green;
+
+            span {
+                color: $color-medium-grey;
+            }
+        }
+    }
+}
+
+.meal__wrap {
+    align-self: center;
+}
+
+.meal__icon {
+    align-self: center;
+    margin-right: 13px;
+}
+
+.meal__name {
+    margin: 0;
+
+    color: $color-green;
+    font-family: $main-font;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22.4px;
+    letter-spacing: 1.12px;
+}
+
+.meal__description {
+    margin: 0;
+
+    color: $color-super-dark-grey;
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16.8px;
+    letter-spacing: 0.88px;
+}
+
+.meal__statistics {
+    margin: 0;
+
+    color: $color-green;
+    font-family: $main-font;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22.4px;
+    text-transform: uppercase;
+
+    letter-spacing: 0.88px;
+}
+
+.meal__time {
+    align-self: center;
+    margin-left: auto;
+
+    text-align: right;
+    color: $color-medium-grey;
+    font-family: $main-font;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 1.76px;
+
+    span {
+        font-size: 16px;
+        text-transform: uppercase;
+        letter-spacing: 1.12px;
+    }
+}
+
+.meal__item--selected {
+    min-width: 525px;
+
+    .meal__time {
+        color: $color-green;
+        font-size: 31px;
+        line-height: 23px;
+
+        span {
+            color: $color-medium-grey;
+            font-size: 20px;
+        }
+    }
+
+    .meal__name {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .meal__description,
+    .meal__statistics {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
