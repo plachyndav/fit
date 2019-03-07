@@ -3,11 +3,11 @@
 (function() {
     var phone = document.querySelector(".js-phone");
     var phoneURls = [
-        "http://localhost:8080/img/phone0.png",
-        "http://localhost:8080/img/phone1.png",
-        "http://localhost:8080/img/phone2.png",
-        "http://localhost:8080/img/phone3.png",
-        "http://localhost:8080/img/phone4.png"
+        "https://www.dropbox.com/s/un8g080s3sunnzf/phone0.png?dl=1",
+        "https://www.dropbox.com/s/ugsm5vcrj4hsbiy/phone1.png?dl=1",
+        "https://www.dropbox.com/s/wc2n1bkhu6bkdgg/phone2.png?dl=1",
+        "https://www.dropbox.com/s/17f3zf5x3hmp5qt/phone3.png?dl=1",
+        "https://www.dropbox.com/s/6lq106c2iw95adh/phone4.png?dl=1"
     ];
     var togglesList = document.querySelector(".js-toggles-list");
     var toggles = togglesList.querySelectorAll(".js-toggle");
